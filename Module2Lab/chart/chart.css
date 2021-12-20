@@ -1,0 +1,61 @@
+.chartContainer 
+{
+	float: left;
+	width: 500px;
+}
+:root {
+  --background-gradient: linear-gradient(30deg, #f39c12 30%, #f1c40f);
+  --gray: #34495e;
+  --darkgray: #2c3e50;
+}
+
+.containerChartLegend
+{
+	width: 500px;
+}
+.header
+{
+background:#f4511e;
+height:70px;
+}
+.logo
+{
+font-family: 'Montserrat, sans-serif';
+font-size:35px;
+color:#ffbb33;
+margin:15px;
+}
+canvas.chart
+{
+	margin: 20px auto;
+	display: block;
+}
+canvas.chart:after
+{
+	clear: both;
+}
+.colorBlock
+{
+	display: inline-block;
+	width: 45px;
+	height: 15px;
+	vertical-align: middle;
+	margin-right: 15px;
+}
+ul.chartLegend
+{
+	list-style: none;
+	margin-bottom: 30px;
+}
+ul.chartLegend li
+{
+	margin-bottom: 5px;
+}
+.floatRight
+{
+	float: Left;
+}
+.clearBoth
+{
+	clear: both;
+}
